@@ -1,0 +1,31 @@
+exchanges:
+  - name: Binance
+    id: binance
+    markets:
+      spot: true
+      futures: true
+  - name: Bybit
+    id: bybit
+    markets:
+      spot: true
+      futures: true
+  - name: OKX
+    id: okx
+    markets:
+      spot: true
+      futures: true
+  - name: MEXC
+    id: mexc
+    markets:
+      spot: true
+      futures: true
+  - name: BingX
+    id: bingx
+    markets:
+      spot: true
+      futures: true
+filters:
+  quote: USDT
+  only_active: true
+arbitrage:
+  min_spread_percent: 0.5
